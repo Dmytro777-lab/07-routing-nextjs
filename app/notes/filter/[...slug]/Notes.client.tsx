@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useDebouncedCallback } from 'use-debounce';
-import { deleteNote, fetchNotes } from '@/lib/api/api';
+import { deleteNote, fetchNotes } from '@/lib/api';
 import ErrorMessage from '@/components/ErrorMessage/ErrorMessage';
 import Loader from '@/components/Loader/Loader';
 import Modal from '@/components/Modal/Modal';
